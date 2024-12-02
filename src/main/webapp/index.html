@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suplementos Geraldo - Página Inicial</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Suplementos Geraldo</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="carrinho.html">Carrinho (<span id="carrinho-count">0</span>)</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="produtos">
+        <h2>Nossos Produtos</h2>
+        <div class="produto">
+            <img src="https://a-static.mlcdn.com.br/800x560/hipercalorico-integralmedica-nutri-whey-protein-em-po-900g-morango/magazineluiza/087204000/afe354b0d6fd4900bbde37c7e48e443f.jpg" alt="Whey Protein" class="produto-img">
+            <h3>Whey Protein</h3>
+            <p>R$ 150,00</p>
+            <button onclick="adicionarAoCarrinho('Whey Protein', 150)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_905086-MLB68825359905_042023-O.webp" alt="Garrafinha" class="produto-img">
+            <h3>Garrafinha</h3>
+            <p>R$ 30,00</p>
+            <button onclick="adicionarAoCarrinho('Garrafinha', 30)">Adicionar ao Carrinho</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Suplementos Geraldo</p>
+    </footer>
+
+    <script src="js/validations.js"></script>
+</body>
+</html>

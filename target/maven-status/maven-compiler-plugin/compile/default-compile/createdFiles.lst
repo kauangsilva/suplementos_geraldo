@@ -1,0 +1,5 @@
+com\mycompany\suplementosgeraldo\modelo\Produto.class
+com\mycompany\suplementosgeraldo\resources\JakartaEE10Resource.class
+com\mycompany\suplementosgeraldo\servlets\AdicionarProdutoServlet.class
+com\mycompany\suplementosgeraldo\JakartaRestConfiguration.class
+com\mycompany\suplementosgeraldo\util\ConexaoBD.class
